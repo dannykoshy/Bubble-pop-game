@@ -1,0 +1,54 @@
+.bubble-game-wrap {
+    padding-top: 30px;
+    text-align: center;
+
+    .bubble-wrap {
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        margin: 20px 0;
+
+        .bubbles {
+            text-align: center;
+
+            span {
+                padding: 30px;
+                border: 1px solid #ccc;
+                border-radius: 50px;
+                display: inline-block;
+                cursor: pointer;
+                margin: 25px 0;
+
+                &.selected {
+                    background-color: coral;
+                }
+            }
+        }
+    }
+
+    .score-wrap {
+        p {
+            padding: 0;
+            margin: 0;
+            color: green;
+            font-weight: bold;
+        }
+    }
+
+    .buttons {
+        text-align: center;
+    }
+
+    .hide {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .bubble-game-wrap .bubble-wrap {
+        .bubbles {
+            span {
+                padding: 20px;
+            }
+        }
+    }
+}

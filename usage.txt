@@ -1,0 +1,7 @@
+// Component generator
+
+https://www.npmjs.com/package/reactjs-component-generator
+
+// React Bootstrap
+
+https://react-bootstrap.github.io/getting-started/introduction/
